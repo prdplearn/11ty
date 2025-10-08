@@ -1,0 +1,376 @@
+---
+layout: layouts/base.njk
+title: "Teams Page"
+permalink: /teams/
+---
+
+<main>
+
+  <section class="breadcrum-wrapper">
+    <img src="../assets/images/bread.png" class="w-100 img-fluid"/>
+    <div class="container">
+        <div class="caption">
+            <h1>Team</h1>
+            </div>
+        </div>
+
+  </section>
+
+  <section class="teams-wrapper team">
+    <div class="container mt-4">
+    <div class="d-flex team-nav mb-4 align-items-center">
+        <button type="button" class="btn btn-outline-secondary me-2 mb-2 custom-btn">Senior Leadership</button>
+        <button type="button" class="btn btn-outline-secondary me-2 mb-2 custom-btn">Operating Partners</button>
+        <button type="button" class="btn btn-outline-secondary me-2 mb-2 custom-btn">Investment Team</button>
+        <button type="button" class="btn btn-outline-secondary me-2 mb-2 custom-btn">Firm Operations</button>
+    </div>
+    
+    <hr class="mb-5 custom-hr">
+
+    <div class="row">
+        <div class="col-md-6 d-flex flex-column  mb-4">
+            <div class="card team-card w-100 person" id="Rob_Wechsler" data-bs-toggle="modal" data-bs-target="#teamModal" >
+                <img src="../assets/images/rob.PNG" class="card-img-top team-img" alt="Rob Wechsler" >
+                <div class="hover_effect">
+ <a href="" class="link-btn"> <i class="bi bi-arrow-right-circle"></i> </a>
+                    </div>
+               
+            </div>
+            <p class="mt-5 team-name">Rob Wechsler</p>
+            <p class=" team-title">Founder/Managing Partner</p>
+        </div>
+
+        <div class="col-md-6 d-flex flex-column  mb-4">
+            <div class="card team-card w-100 person"  id="Dan_Wechsler">
+                <img src="../assets/images/dan.PNG" class="card-img-top team-img" alt="Dan Wechsler" >
+                <div class="hover_effect">
+ <a href="" class="link-btn"> <i class="bi bi-arrow-right-circle"></i> </a>
+                    </div>
+            </div>
+            <p class="mt-5  team-name">Dan Wechsler</p>
+                   <p class="team-title">CEO/Managing Partner</p>
+        </div>
+    </div>
+
+    <div class="mt-md-5">
+    <div class="row team-row">
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="team-member-card">
+                <div class="card team-card w-100 person"  id="Andrea_Shedd">
+<img src="../assets/images/t1.PNG" class="img-fluid team-photo" alt="Andrea Shedd">
+ <div class="hover_effect">
+ <a href="" class="link-btn"> <i class="bi bi-arrow-right-circle"></i> </a>
+                    </div>
+                    </div>
+                
+                <p class="team-name mt-3">Andrea Shedd</p>
+                <p class="team-title">Executive Assistant</p>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="team-member-card">
+                <div class="card team-card w-100 person"  id="Blake_Shaevitz">
+<img src="../assets/images/t2.PNG" class="img-fluid team-photo" alt="Blake Shaevitz">
+ <div class="hover_effect">
+ <a href="" class="link-btn"> <i class="bi bi-arrow-right-circle"></i> </a>
+                    </div>
+                    </div>
+                
+                <p class="team-name mt-3">Blake Shaevitz</p>
+                <p class="team-title">Associate</p>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="team-member-card">
+                  <div class="card team-card w-100 person"  id="Brenden_Hueston">
+ <img src="../assets/images/t3.PNG" class="img-fluid team-photo" alt="Brenden Hueston">
+ <div class="hover_effect">
+ <a href="" class="link-btn"> <i class="bi bi-arrow-right-circle"></i> </a>
+                    </div>
+                    </div>
+               
+                <p class="team-name mt-3">Brenden Hueston</p>
+                <p class="team-title">Vice President</p>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="team-member-card">
+                 <div class="card team-card w-100 person"   id="Cameron_Barragan">
+  <img src="../assets/images/t4.PNG" class="img-fluid team-photo" alt="Cameron Barragan">
+ <div class="hover_effect">
+ <a href="" class="link-btn"> <i class="bi bi-arrow-right-circle"></i> </a>
+                    </div>
+                    </div>
+               
+                <p class="team-name mt-3">Cameron Barragan</p>
+                <p class="team-title">Partner</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+  <!-- Team Modal -->
+    <div class="modal fade none" id="teamModal" tabindex="-1" aria-labelledby="teamModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-0">
+                <div class="modal-body p-0">
+                    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                        <nav class="nav flex-column">
+                            <button type="button" class="nav-item" data-bs-dismiss="modal" aria-label="Close">
+                                <img src="../assets/images/icon-modal-exit.svg" alt="exit" class="img-fluid">
+                            </button>
+                            <button type="button" class="nav-item" data-bs-target="#teamCarousel" data-bs-slide="prev">
+                                <img src="../assets/images/icon-modal-previous.svg" alt="previous" class="img-fluid">
+                            </button>
+                            <button type="button" class="nav-item" data-bs-target="#teamCarousel" data-bs-slide="next">
+                                <img src="../assets/images/icon-modal-next.svg" alt="next" class="img-fluid">
+                            </button>
+                        </nav>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item" id="Rob_Wechsler-car">
+                                <div class="row">
+                                    
+                                    <div class="col-lg-7">
+                                        <div class="content">
+                                            <h5 class="name f40">Rob Wechsler</h5>
+                                            <h5 class="title f20">Managing Partner</h5>
+
+<div class="paraContent"> 
+                                            <p class="f20">Jim Lindsey is a Managing Partner of Arden 55+ Living. He
+                                                is responsible for sourcing new investments and takes an active role
+                                                in property operations.</p>
+                                            <p class="f20">Prior experience includes TA Associates Realty, JRK
+                                                Property Holdings and CB Richard Ellis. He received a B.S. in
+                                                accounting from the University of Southern California and an MBA
+                                                with a concentration in real estate from the University of
+                                                Wisconsin.</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="img-container">
+                                            <img src="../assets/images/Rob_Wechsler.PNG" alt="Rob_Wechsler" class="img-contain">
+                                        </div>
+
+                                        <ul class="list-unstyled list-edu f18">
+                                            <li> <a
+                                                    href="mailto:random@bvocapital.com"><img src="../assets/images/linkedin-logo.png" >  Follow on Linkedin</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {# <div class="carousel-item" id="Dan_Wechsler-car">
+                                <div class="row">
+                                    
+
+                                    <div class="col-lg-6">
+                                        <div class="content">
+                                            <h5 class="name f40">Kevin Woodley</h5>
+                                            <h5 class="title f20">Managing Partner</h5>
+
+                                            <hr>
+
+                                            <p class="f20">Kevin is a Managing Partner of Arden 55+ Living. He is
+                                                responsible for sourcing new investment and development projects
+                                                throughout the Southeastern United States. Prior to Arden, Kevin
+                                                spent 15 years with Duball, LLC specializing in acquisitions, asset
+                                                management and development of over $600 million in assets. Kevin has
+                                                experience with a wide variety of product types including: office,
+                                                residential, mixed-use commercial projects, hotel, retail, and
+                                                high-rise projects. He earned a BS in Finance from Santa Clara
+                                                University and a MBA from Georgetown University.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="img-container">
+                                            <img src="../assets/images/Dan_Wechsler.PNG" alt="Dan_Wechsler"
+                                                class="img-contain">
+                                        </div>
+
+                                        <ul class="list-unstyled list-edu f18">
+                                            <li><img src="./images/icons/team-email.svg" alt="email icon"
+                                                    class="img-contain"> <a
+                                                    href="mailto:kwoodley@bvocapital.com">Follow on Linkedin</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" id="Andrea_Shedd-car">
+                                <div class="row">
+                                   
+
+                                    <div class="col-lg-6">
+                                        <div class="content">
+                                            <h5 class="name f40">Billy Edwards</h5>
+                                            <h5 class="title f20">Chief Financial Officer</h5>
+
+                                            <hr>
+
+                                            <p class="f20">Billy is responsible for overseeing the company's
+                                                treasury function and financial systems. Prior to joining Buvermo,
+                                                he was the Chief Financial Officer for the Ross Companies, a
+                                                Mid-Atlantic multifamily owner and manager. Prior to the Ross
+                                                Companies, he worked at CohnReznick LLP where he provided audit and
+                                                tax services for commercial real estate clients and closely held
+                                                businesses. He received a B.S. in Accounting from the University of
+                                                North Carolina Wilmington and a Master of Accounting from West
+                                                Virginia University.</p>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-6">
+                                        <div class="img-container">
+                                            <img src="../assets/images/Andrea_Shedd.PNG" alt="Andrea_Shedd" class="img-contain">
+                                        </div>
+
+                                        <ul class="list-unstyled list-edu f18">
+                                            <li> <a
+                                                    href="mailto:random@bvocapital.com">Fllow on Linkedin</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" id="Blake_Shaevitz-car">
+                                <div class="row">
+                                   
+
+                                    <div class="col-lg-6">
+                                        <div class="content">
+                                            <h5 class="name f40">Blake Shaevitz</h5>
+                                            <h5 class="title f20">Director of Construction</h5>
+
+                                            <hr>
+
+                                            <p class="f20">Nick is responsible for managing the overall program for
+                                                each project, from inception through project completion, and
+                                                associated budgets. Prior experience includes owner/builder
+                                                companies such as The Bozzuto Group, Suffolk Construction, and JLB
+                                                Partners where he was involved in functions from preconstruction to
+                                                project management. He graduated from Virginia Polytechnic Institute
+                                                and State University with a Bachelor of Science.</p>
+                                        </div>
+                                    </div>
+
+                                      <div class="col-lg-6">
+                                        <div class="img-container">
+                                            <img src="../assets/images/Blake_Shaevitz.PNG" alt="Blake_Shaevitz" class="img-contain">
+                                        </div>
+
+                                        <ul class="list-unstyled list-edu f18">
+                                            <li> <a
+                                                    href="mailto:random@bvocapital.com">Fllow on Linkedin</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" id="Brenden_Hueston-car">
+                                <div class="row">
+                                  
+
+                                    <div class="col-lg-6">
+                                        <div class="content">
+                                            <h5 class="name f40">Brenden Hueston</h5>
+                                            <h5 class="title f20">VP of Property Management</h5>
+
+                                            <hr>
+
+                                            <p class="f20">Natalie is responsible for overseeing operations for
+                                                Buvermo’s active adult vertical. In addition, she takes an active
+                                                role in developing company processes and procedures. Prior
+                                                experience included roles as Regional Vice President at both RKW
+                                                Residential and Pegasus Residential. She spent several years with
+                                                Greystar Real Estate in Charlotte where she was a Director of Real
+                                                Estate. She holds her CAPS designation along with her North Carolina
+                                                Brokers License. She has served on the Board of Directors with the
+                                                Greater Charlotte Apartment Association along with several
+                                                committees.</p>
+                                        </div>
+                                    </div>
+                                      <div class="col-lg-6">
+                                        <div class="img-container">
+                                            <img src="../assets/images/Brenden_Hueston.PNG" alt="Brenden_Hueston" class="img-contain">
+                                        </div>
+
+                                        <ul class="list-unstyled list-edu f18">
+                                            <li> <a
+                                                    href="mailto:random@bvocapital.com">Fllow on Linkedin</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                              <div class="carousel-item" id="Cameron_Barragan-car">
+                                <div class="row">
+                                  
+
+                                    <div class="col-lg-6">
+                                        <div class="content">
+                                            <h5 class="name f40">Cameron Barragan</h5>
+                                            <h5 class="title f20">VP of Property Management</h5>
+
+                                            <hr>
+
+                                            <p class="f20">Natalie is responsible for overseeing operations for
+                                                Buvermo’s active adult vertical. In addition, she takes an active
+                                                role in developing company processes and procedures. Prior
+                                                experience included roles as Regional Vice President at both RKW
+                                                Residential and Pegasus Residential. She spent several years with
+                                                Greystar Real Estate in Charlotte where she was a Director of Real
+                                                Estate. She holds her CAPS designation along with her North Carolina
+                                                Brokers License. She has served on the Board of Directors with the
+                                                Greater Charlotte Apartment Association along with several
+                                                committees.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="img-container">
+                                            <img src="../assets/images/Cameron_Barragan.PNG" alt="Cameron_Barragan" class="img-contain">
+                                        </div>
+
+                                        <ul class="list-unstyled list-edu f18">
+                                            <li> <a
+                                                    href="mailto:random@bvocapital.com">Fllow on Linkedin</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> #}
+
+                        </div>
+                    </div>
+                  
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</main>
