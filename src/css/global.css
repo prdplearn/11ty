@@ -508,7 +508,8 @@ a.btn.btn-prime {
 }
 
 .footer_section .menu_links ul li {
-  margin-bottom: 1rem;
+     margin-bottom: 1rem;
+    word-break: break-all;
 }
 
 .footer_section .menu_links a.links {
