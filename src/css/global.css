@@ -961,7 +961,7 @@ ul.list-unstyled.list-edu.f18 a{
     display: none;
 }
 .paraContent {
-    height: 300px;
+    height: 200px;
     overflow-y: auto;
     margin-top: 50px;
 }
